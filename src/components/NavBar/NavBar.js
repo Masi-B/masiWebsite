@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { motion } from "framer-motion";
 import { MenuList } from './MenuList';
+import './NavBar.css';
 
 
 /*Navigation bar class
@@ -22,7 +23,6 @@ class NavBar extends Component {
            animate={{
              scale: [1, 1.2, 1.2, 1.1, 1],
              borderRadius: ["10%", "10%", "25%", "25%", "10%"],
-             // rotate: [0, 0, 270, 270, 0],
            }}
            transition={{
              duration: 3,
