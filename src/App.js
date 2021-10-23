@@ -1,18 +1,32 @@
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import { BrowserRouter as Router,  Switch } from "react-router-dom";
+import "./App.css";
+import About from "./components/About/About";
+import MyProjects from "./components/My Projects/MyProjects";
+import NavBar from "./components/NavBar/NavBar";
 
 /*Masimba Banda website Home
-*/
+ */
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Switch>
+        <div className="App">
+          <section id="navBar">
+            <NavBar></NavBar>
+          </section>
 
-      <NavBar>
-        
-      </NavBar>
-  
-    </div>
+          <section id="myInfo">
+
+          <About></About>
+          </section>
+
+          <section id="myProjects">
+              <MyProjects></MyProjects>
+          </section>
+        </div>
+      </Switch>
+    </Router>
   );
 }
 

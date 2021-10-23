@@ -1,12 +1,12 @@
 export const MenuList = [
   {
     title: "About",
-    url: "#box-container",
+    url: "#myInfo",
     cName: "nav-links",
   },
   {
     title: "My Projects",
-    url: "#",
+    url: "#myProjects",
     cName: "nav-links",
   },
   {
