@@ -11,7 +11,7 @@ export const MenuList = [
   },
   {
     title: "Contact",
-    url: "#",
+    url: "#myContactInfo",
     cName: "nav-links",
   },
 ];

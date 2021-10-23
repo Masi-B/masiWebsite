@@ -1,6 +1,7 @@
-import { BrowserRouter as Router,  Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import MyProjects from "./components/My Projects/MyProjects";
 import NavBar from "./components/NavBar/NavBar";
 
@@ -17,12 +18,17 @@ function App() {
           </section>
 
           <section id="myInfo">
-
-          <About></About>
+            <About></About>
           </section>
 
           <section id="myProjects">
-              <MyProjects></MyProjects>
+            <MyProjects></MyProjects>
+          </section>
+
+          <section id="myContactInfo">
+            <Contact>
+
+            </Contact>
           </section>
         </div>
       </Switch>
