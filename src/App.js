@@ -13,9 +13,7 @@ function App() {
     <Router>
       <Switch>
         <div className="App">
-          <section id="navBar">
             <NavBar></NavBar>
-          </section>
 
           <section id="myInfo">
             <About></About>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { AboutInformation } from "./AboutInfo";
+import "./About.css"
 
 export class About extends Component {
   render() {
