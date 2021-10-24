@@ -14,8 +14,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  position: fixed;
-  
+  position: fixed;    
+
+}
+
+.homeLink {
+  text-decoration:none;
 }
 
 .nav-menu {
@@ -27,6 +31,7 @@
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+  
 }
 
 .nav-links {

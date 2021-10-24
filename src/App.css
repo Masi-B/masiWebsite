@@ -1,47 +1,43 @@
 * {
   padding: 0%;
   margin: 0;
-  
+
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
- 
 }
-
-/*
-.topPage {
-  position: fixed;
-
-  top: 0;
-  left: 0;
-  width: 100%;
-}
- */
 
 .App {
-  background-color:darkcyan;
+  background-color: darkcyan;
   padding: 0rem;
 }
 
 section {
   padding-top: 10rem;
   margin-left: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
 }
 
+.projectsTitle {
+  white-space: pre;
+  font-style:inherit;
+  font-size: large;
+  font-weight: 600;
+
+}
 
 .textDetails {
-  width:100%;
+  width: 100%;
   height: 100%;
   border: none;
   overflow: hidden;
   background-color: transparent;
   white-space: pre-wrap;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:rgb(88, 255, 219);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(88, 255, 219);
   font-weight: bolder;
   font-size: large;
   font-synthesis: weight;
@@ -50,3 +46,5 @@ section {
 .projList {
   list-style: none;
 }
+
+

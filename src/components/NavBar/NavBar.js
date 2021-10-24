@@ -17,6 +17,7 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navItems">
+        <a href="\" className="homeLink">
         <motion.h1
           className="navLogo"
           animate={{
@@ -31,6 +32,7 @@ class NavBar extends Component {
           Masimba Banda
           <i className="masi"></i>
         </motion.h1>
+        </a>
         <div className="menuIcon" onClick={this.handleClick}>
           <i
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
