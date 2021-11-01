@@ -1,0 +1,15 @@
+.contact-links {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 200px));
+}
+
+.myContacts {
+  text-decoration: none;
+  display: flex;
+  margin-right: 2rem;
+  margin-top: .3rem;
+  list-style: none;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+}
